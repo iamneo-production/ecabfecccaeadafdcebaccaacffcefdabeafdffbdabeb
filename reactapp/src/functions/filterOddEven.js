@@ -27,4 +27,5 @@ export const generateRandomList=(n=7)=>
     {
         res.push(Math.floor(Math.random()*100));
     }
+    return res;
 }
